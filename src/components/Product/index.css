@@ -1,0 +1,26 @@
+.product {
+    width: 30%;
+    border: 1px solid #eaebed;
+    border-radius: 20px;
+    padding: 20px;
+    list-style-type: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    width: 100px;
+    align-self: center;
+}
+.heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+.description {
+    font-size: 15px;
+}
+@media(min-width: 768px){
+    .product {
+        width: 20%;
+    }
+}

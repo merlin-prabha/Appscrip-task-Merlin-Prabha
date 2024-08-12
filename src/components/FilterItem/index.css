@@ -1,0 +1,13 @@
+.single-filter-item {
+    border: 1px solid #eaebed;
+    padding: 20px;
+}
+.filter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bold-text {
+    font-weight: 600px;
+}
